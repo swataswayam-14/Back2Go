@@ -1,0 +1,36 @@
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+*.a
+
+# Build artifacts
+/dist/
+/bin/
+*.test
+
+# Go Modules
+go.sum
+go.work
+go.work.sum
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+*.cache
+.DS_Store
+
+# Vendor (if not using Go Modules)
+vendor/
+
+# Coverage and test results
+cover.out
+*.coverprofile
